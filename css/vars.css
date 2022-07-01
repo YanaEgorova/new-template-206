@@ -1,0 +1,21 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  --main-text-color: #000;
+  --sub-text-color: #fff;
+  --inactive: #818181;
+  --success: #bee3be;
+  --link-color: blue;
+  --accent-color: #ff0000;
+
+
+  --first-brand-color: #acacac;
+  --second-brand-color: #0290c8;
+  --third-brand-color: #fd4e24;
+
+
+  --main-font:  'Montserrat';
+  --title-font: 'Quicksand';
+
+  font-size: 62.5%;
+}
