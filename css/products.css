@@ -152,10 +152,10 @@
 
 
 .swiper-slide:nth-child(odd) .product__block {
-    background-image: linear-gradient(to right, #e96480, #f56b6f, #fb775b, #fb8648, #f59733);
+    background-image: linear-gradient(to right, var(--fourth-brand-color), var(--third-brand-color));
 }
 .swiper-slide:nth-child(even) .product__block {
-    background-image: linear-gradient(to right, #a087f4, #8a8ef6, #7394f5, #5e99f2, #4a9ded);
+    background-image: linear-gradient(to right, var(--fifth-brand-color), var(--second-brand-color));
 }
 
 @media screen and (min-width: 1440px) { 

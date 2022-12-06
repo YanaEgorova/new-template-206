@@ -20,7 +20,7 @@
 }
 .hero__btn-box .btn-transparent {
     margin-right: 1.5rem;
-    background-image: linear-gradient(to right, #e96480, #f56b6f, #fb775b, #fb8648, #f59733);
+    background-image: linear-gradient(to right, var(--fourth-brand-color), var(--third-brand-color));
 }
 .hero__list {
     display: grid;
@@ -84,10 +84,10 @@
     position: relative;
 }
 .question__item:nth-child(odd) {
-    background-image: linear-gradient(to right, #e96480, #f56b6f, #fb775b, #fb8648, #f59733);
+    background-image: linear-gradient(to right, var(--fourth-brand-color), var(--third-brand-color));
 }
 .question__item:nth-child(even) {
-    background-image: linear-gradient(to right, #a087f4, #8a8ef6, #7394f5, #5e99f2, #4a9ded);
+    background-image: linear-gradient(to right, var(--fifth-brand-color), var(--second-brand-color));
 }
 
 
@@ -152,10 +152,10 @@
     margin-bottom: 3rem;
 }
 .policy .btn {
-    background-image: linear-gradient(to right, #e96480, #f56b6f, #fb775b, #fb8648, #f59733);
+    background-image: linear-gradient(to right, var(--fourth-brand-color), var(--third-brand-color));
 }
 .policy__block--top .btn {
-    background-image: linear-gradient(to right, #a087f4, #8a8ef6, #7394f5, #5e99f2, #4a9ded);
+    background-image: linear-gradient(to right, var(--fifth-brand-color), var(--second-brand-color));
 }
 
 
@@ -184,13 +184,13 @@
     .hero__item:nth-child(4) {
         border-radius: 12rem;
         padding: 2rem;
-        background-image: linear-gradient(to right, #e96480, #f56b6f, #fb775b, #fb8648, #f59733);
+        background-image: linear-gradient(to right, var(--fourth-brand-color), var(--third-brand-color));
     }
     .hero__item:nth-child(2),
     .hero__item:nth-child(3) {
         border-radius: 12rem;
         padding: 2rem;
-        background-image: linear-gradient(to right, #a087f4, #8a8ef6, #7394f5, #5e99f2, #4a9ded);
+        background-image: linear-gradient(to right, var(--fifth-brand-color), var(--second-brand-color));
     }
 
 
@@ -204,7 +204,7 @@
         left: -16rem;
         top: 0;
         border-radius: 2rem;
-        background-image: linear-gradient(to right, #e96480, #f56b6f, #fb775b, #fb8648, #f59733);
+        background-image: linear-gradient(to right, var(--fourth-brand-color), var(--third-brand-color));
     }
     .question__item:nth-child(even)::before {
         display: block;
@@ -215,7 +215,7 @@
         right: -16rem;
         top: 0;
         border-radius: 2rem;
-        background-image: linear-gradient(to right, #a087f4, #8a8ef6, #7394f5, #5e99f2, #4a9ded);
+        background-image: linear-gradient(to right, var(--fifth-brand-color), var(--second-brand-color));
     }
     .question__item:nth-child(odd) {
         margin-left: -10rem;
